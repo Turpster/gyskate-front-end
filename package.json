@@ -1,0 +1,24 @@
+{
+  "name": "gyskate",
+  "version": "0.0.1",
+  "description": "The react website that is responsible for gyskate.com",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "react-scripts test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turpster/gyskate.git"
+  },
+  "keywords": [
+    "skateboarding",
+    "portfolio-work",
+    "gyskate"
+  ],
+  "author": "Turpster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Turpster/gyskate/issues"
+  },
+  "homepage": "https://github.com/Turpster/gyskate#readme"
+}
