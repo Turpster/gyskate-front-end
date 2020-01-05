@@ -1,9 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@font-face {
+    font-family: 'Sugo';
+    src: url("./assets/fonts/sugo/Sugo_ExtraLightTrial.ttf") format('truetype');
+}
 body
 {
-    font-family: "Merriweather", serif;
-    font-size: 20px;
+    font-family: 'Sugo', serif;
+    font-size: 30px;
+    text-transform: lowercase;
     background-color: black;
     color: white;
     margin: 0 ;
+}
+a
+{
+    color: turquoise;
+    text-decoration: none;
+}
+a:visited
+{
+    color: aquamarine;
+}
+a:hover
+{
+    text-decoration: underline;
 }
