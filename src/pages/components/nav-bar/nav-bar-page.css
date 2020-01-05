@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Slaytanic';
+    src: url("../../../assets/fonts/slaytanic/slaytanic.regular.ttf") format('truetype');
+}
+#logo
+{
+    font-family: 'Slaytanic', sans-serif;
+    font-size: 30px;
+}

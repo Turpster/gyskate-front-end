@@ -1,0 +1,68 @@
+h1, h2, h3, h4, h5, h6
+{
+    margin: 10px 0;
+}
+h1
+{
+    font-size: 40px;
+}
+h2
+{
+    font-size: 35px;
+}
+h3
+{
+    font-size: 30px;
+}
+h4
+{
+    font-size: 26px;
+}
+h5
+{
+    font-size: 24px;
+}
+h6
+{
+    font-size: 22px;
+}
+p
+{
+    margin: 0;
+    font-size: 20px;
+}
+ul, ol
+{
+    margin: 0;
+}
+form
+{
+    display: block;
+}
+input, textarea, button
+{
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    width: 100%;
+    margin: 2px 5px;
+    resize: vertical;
+}
+button
+{
+    width: 100px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+input[type="file"]
+{
+    background-color: inherit;
+
+    border: none;
+    justify-content: center;
+}
+input[type="submit"]
+{
+    cursor: pointer;
+}

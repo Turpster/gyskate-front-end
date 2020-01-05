@@ -1,8 +1,10 @@
 import React from 'react'
-import NavBar from "../../components/navbar/nav-bar";
-import NavBarButton from "../../components/navbar/button/nav-bar-button";
+import NavBar from "../../../components/navbar/nav-bar";
+import NavBarButton from "../../../components/navbar/button/nav-bar-button";
 
-import Routes from "../../routes"
+import Routes from "../../../routes"
+
+import "./nav-bar-page.css"
 
 import {
     BrowserRouter,
@@ -17,19 +19,19 @@ export default class NavBarPage extends React.Component
         <BrowserRouter>
             <NavBar>
                 <NavBarButton>
-                    <Link to={"/"}>Home</Link>
-                </NavBarButton>
-                <NavBarButton>
-                    <Link to={"/contact"}>Contact</Link>
-                </NavBarButton>
-                <NavBarButton>
-                    <span style={{margin: "5px 10px"}}><Link to={"/"}>gyskate.com</Link></span>
+                    <Link to={"/"}>Content</Link>
                 </NavBarButton>
                 <NavBarButton>
                     <Link to={"/upload"}>Upload</Link>
                 </NavBarButton>
                 <NavBarButton>
+                    <span id={"logo"}><Link to={"/"}>gyskate</Link></span>
+                </NavBarButton>
+                <NavBarButton>
                     <Link to={"/about"}>About</Link>
+                </NavBarButton>
+                <NavBarButton>
+                    <Link to={"/contact"}>Contact</Link>
                 </NavBarButton>
             </NavBar>
             <Routes/>
