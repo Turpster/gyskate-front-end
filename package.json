@@ -1,6 +1,6 @@
 {
   "name": "gyskate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The react website that is responsible for gyskate.com",
   "main": "src/index.js",
   "scripts": {
@@ -26,8 +26,11 @@
   },
   "homepage": "https://github.com/Turpster/gyskate#readme",
   "dependencies": {
+    "proptypes": "^1.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-native": "^0.61.5",
+    "react-native-local-resource": "^0.1.6",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.3.0"
