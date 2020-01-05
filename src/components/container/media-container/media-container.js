@@ -49,7 +49,7 @@ export default class MediaContainer extends React.Component
         if (this.state.fullView)
         {
             header = (
-            <PropContainer>
+            <PropContainer style={{margin: 0}}>
                 <Container>
                     <div className={"media-container-content-title"}>{this.props.title}</div>
                     <Icon src={SkateboardIcon} alt={"Skater"} width={"32px"}/>
@@ -61,7 +61,7 @@ export default class MediaContainer extends React.Component
         );
             footer =
                 (
-                    <PropContainer>
+                    <PropContainer style={{margin: 0}}>
                         <div className={"media-container-description"}>
                             <p>
                             {this.props.children}

@@ -7,7 +7,11 @@ export default class Container extends React.Component
 {
     static propTypes = {
         justifyContent: PropTypes.string,
-        id: PropTypes.string
+        id: PropTypes.string,
+        style: PropTypes.shape({
+            k0: PropTypes.arrayOf(PropTypes.object),
+            k1: PropTypes.arrayOf(PropTypes.string)
+        })
     };
 
     static defaultProps = {
