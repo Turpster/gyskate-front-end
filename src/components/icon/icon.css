@@ -15,7 +15,7 @@ div.svg
     mask-size: 100% 100%;
     cursor: pointer;
 }
-div.svg:hover
+a div.svg:hover
 {
     transition: background-color 0.1s;
     background-color: white;
