@@ -13,6 +13,7 @@ body
 }
 a
 {
+    display: inline-flex;
     color: turquoise;
     text-decoration: none;
 }
