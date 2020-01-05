@@ -5,22 +5,27 @@ import {
     Route
 } from "react-router-dom";
 
+import ContentPage from "./pages/content-page/content-page";
+import ContactPage from "./pages/contact-page/contact-page";
+import AboutPage from "./pages/about-page/about-page";
+import UploadPage from "./pages/upload-page/upload-page";
+
 export default class Routes extends React.Component
 {
     render() {
         return (
             <Switch>
                 <Route exact path={"/"}>
-                    <h1>Home</h1>
+                    <ContentPage/>
                 </Route>
                 <Route exact path={"/contact"}>
-                    <h1>Contact</h1>
+                    <ContactPage/>
                 </Route>
                 <Route exact path={"/about"}>
-                    <h1>About</h1>
+                    <AboutPage/>
                 </Route>
                 <Route exact path={"/upload"}>
-                    <h1>Upload</h1>
+                    <UploadPage/>
                 </Route>
             </Switch>
         );
