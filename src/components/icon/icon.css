@@ -1,0 +1,22 @@
+.icon
+{
+    display: inline-flex;
+    margin: auto 5px;
+}
+a img.icon
+{
+    cursor: pointer;
+}
+div.svg
+{
+    background-color: grey;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 100% 100%;
+    cursor: pointer;
+}
+div.svg:hover
+{
+    transition: background-color 0.1s;
+    background-color: white;
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url("../../assets/fonts/ptsans/PTSans-Regular.ttf") format('truetype');
+}
+.page-contain
+{
+    font-family: "Pt Sans", sans-serif;
+    font-size: 24px;
+    text-transform: none;
+    min-width: 400px;
+    max-width: 800px;
+    margin: 0 auto;
+}

@@ -1,0 +1,69 @@
+.banner
+{
+    object-fit: cover;
+    object-position: 0 50%;
+    display: flow;
+    position: relative;
+    animation-name: image-fade;
+}
+.image-contain
+{
+    position: relative;
+}
+.banner-caption
+{
+    background-color: rgba(10, 10, 10, 0.8);
+    border: 4px black solid;
+    text-align: center;
+    padding: 1vh 1.5vh;
+    position: absolute;
+    display: flex;
+}
+
+.banner-caption-bottom-left {
+    bottom: 16px;
+    left: 8px;
+}
+
+.banner-caption-top-left {
+    top: 16px;
+    left: 8px;
+}
+
+.banner-caption-top-right {
+    top: 16px;
+    right: 8px;
+}
+
+.banner-caption-bottom-right {
+    bottom: 20px;
+    right: 20px;
+}
+
+.banner-caption-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-caption-top-center {
+    top: 16px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.banner-caption-bottom-center {
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.banner-caption-left-center {
+    bottom: 50%;
+    left: 8px;
+    transform: translate(0, 50%);
+}
+.banner-caption-right-center {
+    bottom: 50%;
+    right: 8px;
+    transform: translate(0, 50%);
+}

@@ -1,0 +1,66 @@
+.media-container
+{
+    margin: 8px;
+}
+.media-container-content
+{
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    cursor: pointer;
+    transition: opacity ease-in 0.1s;
+}
+.media-container-background
+{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background ease-out 0.2s;
+}
+.media-container-background:hover
+{
+    background: rgba(0, 0, 0, 0.9);
+    transition: background ease-out 0.2s;
+}
+.media-container-content:hover .media-container-background
+{
+    transition: rgba ease-out 0.1s;
+}
+.media-container-content .icon
+{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: none;
+}
+.media-container-content:hover .icon
+{
+    display: block;
+    transition: display ease-in 0.2s;
+}
+.media-container-description
+{
+}
+.media-container-content-title
+{
+    float: left;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+}
+.media-container-content-skater
+{
+    float: right;
+    display: inline-block;
+    min-width: max-content;
+    clear: both;
+}
