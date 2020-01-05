@@ -2,7 +2,7 @@
   "name": "gyskate",
   "version": "0.0.2",
   "description": "The react website that is responsible for gyskate.com",
-  "main": "src/app.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
